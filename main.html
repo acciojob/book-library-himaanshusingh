@@ -2,28 +2,82 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* your css code here. If applicable */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: arial;
+      }
+      body {
+        background-color: #f8f8f8;
+      }
+      .book-library {
+        background-color: #ffffff;
+      }
+      .book {
+        padding: 20px;
+        text-align: center;
+        margin-top: 30px;
+      }
+      h1 {
+        text-align: center;
+        padding: 30px;
+      }
+      h2 {
+        text-transform: uppercase;
+        text-align: left;
+      }
+      p {
+        color: #777777;
+        text-align: left;
+      }
+      button {
+        background-color: #2ecc71;
+        height: 5vh;
+        width: 96vw;
+        border-radius: 10px;
+        border: none;
+        color: white;
+      }
+    </style>
   </head>
   <body>
-    <!-- the entire body must be written by student -->
     <div class="book-library">
       <h1>Book Library</h1>
       <div class="book">
-        <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Spy-in-the-Amber-by-Manohar-Malgonkar.jpg" alt="img1"/>
+        <img
+          src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Spy-in-the-Amber-by-Manohar-Malgonkar.jpg"
+          alt="img1"
+        />
         <h2>Spy in the Amber</h2>
         <p>By Manohar Malgonkar</p>
-        <button type="submit" value="Rs 299">Rs 299</button>
+        <div>
+          <button type="submit" value="Rs 299">Rs 299</button>
+        </div>
       </div>
       <div class="book">
-        <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Sacred-Games-by-Vikram-Chandra.jpg" alt="img2"/>
+        <img
+          src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Sacred-Games-by-Vikram-Chandra.jpg"
+          alt="img2"
+        />
         <h2>Sacred Games</h2>
         <p>ByVikramChandra</p>
-        <button type="submit" value="Rs 199">Rs 199</button>
+        <div>
+          <button type="submit" value="Rs 199">Rs 199</button>
+        </div>
       </div>
       <div class="book">
-        <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Byomkesh-Bakshi-by-Sharadindu-Bandyopadhyay.jpg" alt="img3"/>
+        <img
+          src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Byomkesh-Bakshi-by-Sharadindu-Bandyopadhyay.jpg"
+          alt="img3"
+        />
         <h2>Byomkesh Bakshi</h2>
         <p>By Sharadindu Bandyopadhyay</p>
-        <button type="submit" value="Rs 249">Rs 249</button>
+        <div>
+          <button type="submit" value="Rs 249">Rs 249</button>
+        </div>
       </div>
     </div>
     <script type="text/javascript" src="./script.js"></script>
